@@ -1,0 +1,24 @@
+---
+fwservices2:
+ snmp:
+  - port: 161
+    proto: tcp
+  - port: 161
+    proto: udp
+ syslog:
+  - port: 514
+    proto: udp
+ abb-escp:
+  - port: 6316
+    proto: tcp 
+  - port: 6316
+    proto:  udp
+ puppet-server:
+  - port: 8140
+    proto: tcp
+ puppet-run:
+  - port: 8139
+    proto: tcp
+ smart-proxy:
+  - port: 8443
+    proto: tcp
